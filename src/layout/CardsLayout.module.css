@@ -1,3 +1,4 @@
 .cardsLayout {
   display: flex;
+  max-width: 92rem;
 }
