@@ -29,6 +29,19 @@
   display: block;
   border: none;
   border-radius: 5rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  transition: all 0.2s linear;
+  transform: translateY(-3px);
+}
+
+.btn:active {
+  transform: translateY(1px);
 }
 
 .carIcon {
