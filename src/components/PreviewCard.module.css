@@ -1,6 +1,6 @@
 .previewCard {
   padding: 4.8rem;
-  background-color: #e28625;
+  background-color: #006971;
 }
 
 .previewCard h1 {
@@ -29,4 +29,8 @@
   display: block;
   border: none;
   border-radius: 5rem;
+}
+
+.carIcon {
+  margin-bottom: 3.5rem;
 }

@@ -1,14 +1,12 @@
 import styles from "./PreviewCard.module.css";
 
-const PreviewCard = () => {
+const PreviewCard = ({ icon, colour, text, title }) => {
   return (
-    <section className={styles.previewCard}>
-      <img src="" alt="" />
-      <h1>sedans</h1>
-      <p>
-        Choose a sedan for its affordability and excellent fuel economy. Ideal
-        for cruising in the city or on your next road trip.
-      </p>
+    <section className={styles.previewCard} style={{ backgroundColor: colour }}>
+      <img src={icon} alt="car icon" className={styles.carIcon} />
+
+      <h1>{title}</h1>
+      <p>{text}</p>
       <button children className={styles.btn}>
         Learn More
       </button>
